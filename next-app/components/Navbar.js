@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
+import Link from "/your-path-to-uicons/css/uicons-rounded-solid.css";
 
 export default function Navbar() {
   const [visible, setVisible] = useState(true);
@@ -36,13 +37,15 @@ export default function Navbar() {
       
       <div className="max-w-6xl mx-auto p-6 flex justify-between items-center">
         <Link href="/" className="flex items-center space-x-2">
-          <Image href="#home" src="/Lifes’s Cos White.png" alt="Life'Cos Logo" width={175} height={175}/>
+          <Image src="/Lifes’s Cos White.png" alt="Life'Cos Logo" width={175} height={175}/>
         </Link>
 
         <div className="hidden md:flex space-x-4">
-          <Link href="#home" className="text-white">Home</Link>
           <Link href="#about" className="text-white">About</Link>
-          <Link href="#contact" className="text-white">Contact</Link>
+          <Link href="/signin" className="text-white">
+            <image src="/uicons/rounded-solid/user.svg" alt="User Icon" width={24} height={24} className="inline-block mr-1" />
+          </Link>
+
         </div>
       </div>
     </nav>
