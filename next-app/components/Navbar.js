@@ -38,7 +38,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/" className="flex items-center space-x-2 shrink-0">
           <Image
-            src="/Lifes’s Cos White.png"
+            src="/LifesCosWhite.png"
             alt="Life'Cos Logo"
             width={175}
             height={175}
@@ -78,7 +78,7 @@ export default function Navbar() {
               className="inline-block mr-1 dark:invert"
             />
           </Link>
-          <Link href="/signin" className="text-white">
+          <Link href="/SignIn" className="text-white">
             <Image
               src="/user.png"
               alt="User Icon"
@@ -93,7 +93,8 @@ export default function Navbar() {
       {/* แถวล่าง: เมนูหลัก */}
       <div className="max-w-6xl mx-auto px-6 pb-4">
         <ul className="flex justify-left space-x-10 text-white text-lg md:text-base font-bold">
-          <li><Link href="/product">Product</Link></li>
+          <li><Link href="/Discovery">Discovery</Link></li>
+          <li><Link href="/News">News</Link></li>
           <li><Link href="/about">About us</Link></li>
           <li><Link href="/support">Support</Link></li>
         </ul>

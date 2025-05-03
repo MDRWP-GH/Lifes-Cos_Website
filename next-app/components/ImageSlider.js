@@ -10,7 +10,7 @@ import "../app/slider.css";
 const images = [
 
   "/ImageSlider/Lifes'Cos-5118.JPG",
-  "/ImageSlider/Lifes'Cos-4885.JPG",
+  "/ImageSlider/IMG_9856Copy.png",
   "/ImageSlider/Lifes'Cos-4376.JPG",
   "/ImageSlider/IMG_8109.jpg",
   "/ImageSlider/IMG_3595.jpg",
@@ -18,7 +18,7 @@ const images = [
 
 export default function ImageSlider() {
   return (
-    <div className="w-full px-0 p-30">
+    <div className="w-full px-0 mt-18">
       <Swiper
         modules={[Pagination, Autoplay]}
         spaceBetween={0}
@@ -33,12 +33,12 @@ export default function ImageSlider() {
       >
         {images.map((src, index) => (
           <SwiperSlide key={index}>
-            <div className="relative w-full aspect-[21/9] overflow-hidden">
+            <div className="relative w-full aspect-[21/10] overflow-hidden">
               <Image
                 src={src}
                 alt={`Slide ${index + 1}`}
                 fill
-                sizes="200vw"
+                sizes="300vw"
                 className="object-cover"
               />
             </div>
