@@ -1,9 +1,10 @@
 import Link from "next/link";
-import Navbar from "../../components/Navbar";
-import Footer from "../../components/Footer";
-import FeatureSection from "../../components/FeatureSection";
+import Navbar from "../../../components/Navbar";
+import Footer from "../../../components/Footer";
+import FeatureSection from "../../../components/FeatureSection";
+import Pagination from "@/components/Pagination";
 
-export default function ShopPage() {
+export default function Discovery() {
   return (
     <>  
     <Navbar />
@@ -19,7 +20,7 @@ export default function ShopPage() {
   {/* เนื้อหาด้านบน */}
   <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">
     <h1 className="text-white text-4xl md:text-5xl font-bold drop-shadow-lg">
-      Discovery
+      Discovery #1
     </h1>
     <p className="text-white text-lg mt-4 drop-shadow-md">
       A Photo Cosplay
@@ -27,7 +28,28 @@ export default function ShopPage() {
   </div>
       </div>
 
-    <main className="flex flex-col items-center justify-center min-h-screen px-4 py-12 bg-[#1f1f1f]">
+      <div className="relative w-full h-[500px]">
+  {/* รูปภาพพื้นหลัง */}
+  <img
+    src="/Lifes'Cos-4595.JPG"
+    alt="Background"
+    className="absolute inset-0 w-full h-full object-cover opacity-40"
+  />
+
+  {/* เนื้อหาด้านบน */}
+  <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">
+    <h1 className="text-white text-4xl md:text-5xl font-bold drop-shadow-lg">
+      My Album
+    </h1>
+    <p className="text-white text-lg mt-4 drop-shadow-md">
+      in my journey
+    </p>
+  </div>
+      </div>
+
+    <main className="flex flex-col items-center justify-center min-h-screen px-4 py-12 bg-[#1f1f1f]"
+    style={{ backgroundImage: "url('/1534541.jpg')" }}
+    >
             <FeatureSection
               title="Frieren - Sousou no Frieren"
               cn="Boom Bii"
@@ -62,9 +84,21 @@ export default function ShopPage() {
               title="Barbara - Genshin Impact"
               cn="Khun Hun"
               photographer="Lifes’Cos"
-              imageUrl="/images/Lifes'Cos-4438.jpg"
+              imageUrl="/images/LifesCos-4438.jpg"
             />
+
+            <div className="mt-10 flex justify-center space-x-4">
+          <Link href="/Discovery/2">
+              <button className="px-6 py-2 bg-gray-500 text-white rounded-full hover:bg-gray-700 transition">
+              Next Page →
+              </button>
+            </Link>
+        </div>
+        
           </main>
+
+          
+
     <Footer />
     </>
   );

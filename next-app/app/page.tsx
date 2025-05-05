@@ -26,7 +26,7 @@ export default function Home() {
     <p className="text-white text-lg mt-4 drop-shadow-md">
       Lifes To Take A Photo Cosplay
     </p>
-    <Link href="/Discovery">
+    <Link href="/Discovery/1">
     <button className="mt-6 px-6 py-3 bg-white text-black font-semibold rounded-full shadow hover:bg-gray-200 transition">
       Discovery →
     </button>
@@ -34,7 +34,10 @@ export default function Home() {
   </div>
       </div>
 
-      <main className="flex flex-col items-center justify-center min-h-screen px-4 py-12 bg-[#1f1f1f]">
+      <main 
+      className="flex flex-col items-center justify-center min-h-screen px-4 py-12 bg-[#1f1f1f]"
+      style={{ backgroundImage: "url('/1534541.jpg')" }}
+      >
         <FeatureSection
           title="Frieren - Sousou no Frieren"
           cn="Boom Bii"

@@ -93,9 +93,9 @@ export default function Navbar() {
       {/* แถวล่าง: เมนูหลัก */}
       <div className="max-w-6xl mx-auto px-6 pb-4">
         <ul className="flex justify-left space-x-10 text-white text-lg md:text-base font-bold">
-          <li><Link href="/Discovery">Discovery</Link></li>
+          <li><Link href="/Discovery/1">Discovery</Link></li>
           <li><Link href="/News">News</Link></li>
-          <li><Link href="/about">About us</Link></li>
+          <li><Link href="/About">About us</Link></li>
           <li><Link href="/support">Support</Link></li>
         </ul>
       </div>
