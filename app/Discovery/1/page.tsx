@@ -88,7 +88,7 @@ export default function Discovery() {
         />
 
         <div className="mt-10 flex justify-center space-x-4">
-          <AnimatedButton href="/Discovery/1">
+          <AnimatedButton href="/Discovery/2">
             Next Page →
           </AnimatedButton>
         </div>
