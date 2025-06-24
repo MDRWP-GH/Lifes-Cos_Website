@@ -12,13 +12,14 @@ const images = [
   "/ImageSlider/Lifes'Cos-5118.JPG",
   "/ImageSlider/IMG_9856Copy.png",
   "/ImageSlider/Lifes'Cos-4376.JPG",
-  "/ImageSlider/IMG_8109.jpg",
+  "/ImageSlider/IMG_9984.png",
   "/ImageSlider/IMG_3595.jpg",
+  "/ImageSlider/IMG_9992.png",
 ];
 
 export default function ImageSlider() {
   return (
-    <div className="w-full px-0 mt-18">
+    <div className="w-full px-0 mt-35">
       <Swiper
         modules={[Pagination, Autoplay]}
         spaceBetween={0}
@@ -28,7 +29,7 @@ export default function ImageSlider() {
           bulletClass: "swiper-pagination-bullet custom-bullet",
           bulletActiveClass: "swiper-pagination-bullet-active custom-bullet-active",
         }}
-        autoplay={{ delay: 3000 }}
+        autoplay={{ delay: 2000 }}
         loop
       >
         {images.map((src, index) => (

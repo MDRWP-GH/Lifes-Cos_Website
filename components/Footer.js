@@ -1,4 +1,5 @@
 import { FaFacebookF, FaInstagram } from "react-icons/fa";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -20,7 +21,7 @@ export default function Footer() {
     {/* About */}
     <div>
       <h4 className="font-semibold mb-2">Lifes‘Cos</h4>
-      <p>เกี่ยวกับ Lifes‘Cos</p>
+      <Link href="/About"><p>เกี่ยวกับ Lifes‘Cos</p></Link>
     </div>
 
     {/* Description */}

@@ -29,9 +29,8 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`fixed top-0 left-0 w-full bg-[#171717] shadow-md transition-transform duration-300 z-50 ${
-        visible ? "translate-y-0" : "-translate-y-full"
-      }`}
+      className={`fixed top-0 left-0 w-full bg-[#171717] shadow-md transition-transform duration-300 z-50 ${visible ? "translate-y-0" : "-translate-y-full"
+        }`}
     >
       {/* แถวบน */}
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-center items-center">
@@ -44,7 +43,7 @@ export default function Navbar() {
             height={175}
           />
         </Link>
-      
+
       </div>
       {/* แถวล่าง: เมนูหลัก */}
       <div className="max-w-6xl mx-auto px-6 pb-4 flex justify-center items-center">
