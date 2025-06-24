@@ -1,7 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import FeatureSection from "@/components/FeatureSection";
-import Link from "next/link";
 import AnimatedButton from "@/components/AnimatedButtonNextBack";
 
 export default function DiscoveryPage2() {
