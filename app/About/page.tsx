@@ -19,7 +19,7 @@ export default function AboutUs() {
         {/* เนื้อหาด้านบน */}
           <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">
             <h1 className="text-white text-4xl md:text-5xl font-bold drop-shadow-lg">
-            Lifes'Cos
+            Lifes&apos;Cos
             </h1>
           <p className="text-white text-lg mt-4 drop-shadow-md">
           Lifes To Take A Photo Cosplay
@@ -43,7 +43,7 @@ export default function AboutUs() {
         {/* เนื้อหาด้านบน */}
           <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">
             <h1 className="text-white text-4xl md:text-5xl font-bold drop-shadow-lg">
-            Lifes'Cos
+            Lifes&apos;Cos
             </h1>
           <p className="text-white text-lg mt-4 drop-shadow-md">
           Lifes To Take A Photo Cosplay
