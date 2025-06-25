@@ -42,7 +42,7 @@ export default function Home() {
           title="Frieren - Sousou no Frieren"
           cn="Boom Bii"
           photographer="Lifes’Cos"
-          imageUrl="/Images/IMG_9855.png"
+          imageUrl="/IMG_9855.png"
           link="/details/frieren"
         />
 
@@ -50,7 +50,7 @@ export default function Home() {
           title="𝗘𝘃𝗮𝗹𝗶𝗮 - 𝗔𝗹𝗴𝗼𝗿𝗵𝘆𝘁𝗵𝗺 𝗣𝗿𝗼𝗷𝗲𝗰𝘁"
           cn="Alis ʚìɞ"
           photographer="Lifes’Cos"
-          imageUrl="/Images/406.png" // ใช้ path ของรูปใหม่
+          imageUrl="/406.png" // ใช้ path ของรูปใหม่
           link="/Discovery/1"
           reversed={true} // เพื่อสลับตำแหน่งรูปกับข้อความ
         />
