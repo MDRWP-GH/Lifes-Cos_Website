@@ -47,7 +47,7 @@ export default function Navbar() {
       </div>
       {/* แถวล่าง: เมนูหลัก */}
       <div className="max-w-6xl mx-auto px-6 pb-4 flex justify-center items-center">
-        <ul className="flex justify-left space-x-10 text-white text-lg md:text-base font-bold">
+        <ul className="flex justify-left space-x-10 text-white text-base md:text-base font-bold">
           <li><Link href="/">Home</Link></li>
           <li><Link href="/Discovery/1">Discovery</Link></li>
           <li><Link href="/About">About us</Link></li>

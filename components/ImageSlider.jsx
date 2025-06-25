@@ -13,7 +13,6 @@ const images = [
   "/ImageSlider/IMG_9856Copy.png",
   "/ImageSlider/Lifes'Cos-4376.JPG",
   "/ImageSlider/IMG_9984.png",
-  "/ImageSlider/IMG_3595.jpg",
   "/ImageSlider/IMG_9992.png",
 ];
 
