@@ -11,7 +11,7 @@ export default function Discovery() {
       <div className="relative w-full h-[500px] mt-30">
         {/* รูปภาพพื้นหลัง */}
         <img
-          src="/Lifes'Cos-5332.jpg"
+          src="/Lifes'Cos-5332.JPG"
           alt="Background"
           className="absolute inset-0 w-full h-full object-cover opacity-40"
         />
