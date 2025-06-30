@@ -18,7 +18,7 @@ const images = [
 
 export default function ImageSlider() {
   return (
-    <div className="w-full px-0 mt-35">
+    <div className="w-full px-0 mt-30">
       <Swiper
         modules={[Pagination, Autoplay]}
         spaceBetween={0}

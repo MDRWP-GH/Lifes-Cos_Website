@@ -38,6 +38,24 @@ export default function Home() {
         className="flex flex-col items-center justify-center min-h-screen px-4 py-12 bg-[#1f1f1f]"
         style={{ backgroundImage: "url('/1534541.jpg')" }}
       >
+
+        <FeatureSection
+          title="𝗧𝗵𝗲 𝗛𝗲𝗿𝘁𝗮 - 𝗛𝗼𝗻𝗸𝗮𝗶 𝗦𝘁𝗮𝗿 𝗥𝗮𝗶𝗹"
+          cn="แก้มมี่แบร์ ฯ."
+          photographer="Lifes’Cos"
+          imageUrl="/IMG_9984.png" // ใช้ path ของรูปใหม่
+          link="/Discovery/1"
+        />
+
+        <FeatureSection
+          title="Hatsune Miku"
+          cn="Mi Mo Ri"
+          photographer="Lifes’Cos"
+          imageUrl="/IMG_9992.png" // ใช้ path ของรูปใหม่
+          link="/Discovery/1"
+          reversed={true} // เพื่อสลับตำแหน่งรูปกับข้อความ
+        />
+
         <FeatureSection
           title="Frieren - Sousou no Frieren"
           cn="Boom Bii"

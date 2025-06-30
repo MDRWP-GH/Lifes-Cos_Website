@@ -50,18 +50,33 @@ export default function DiscoveryPage2() {
         style={{ backgroundImage: "url('/1534541.jpg')" }}
       >
         <FeatureSection
-          title="Frieren - Sousou no Frieren"
-          cn="Boom Bii"
+          title="𝗡𝗮𝗵𝗶𝗱𝗮 - 𝗚𝗲𝗻𝘀𝗵𝗶𝗻 𝗜𝗺𝗽𝗮𝗰𝘁"
+          cn="Sora SerVamp"
           photographer="Lifes’Cos"
-          imageUrl="/images/IMG_9855.png"
+          imageUrl="/Lifes'Cos-5204.png"
         />
 
         <FeatureSection
-          title="𝗘𝘃𝗮𝗹𝗶𝗮 - 𝗔𝗹𝗴𝗼𝗿𝗵𝘆𝘁𝗵𝗺 𝗣𝗿𝗼𝗷𝗲𝗰𝘁"
-          cn="Alis ʚìɞ"
+          title="Sunday - 𝗛𝗼𝗻𝗸𝗮𝗶 𝗦𝘁𝗮𝗿 𝗥𝗮𝗶𝗹"
+          cn="Yuukie Chuu"
           photographer="Lifes’Cos"
-          imageUrl="/images/406.png" // ใช้ path ของรูปใหม่
-          reversed={true} // เพื่อสลับตำแหน่งรูปกับข้อความ
+          imageUrl="/IMG_9163.png"
+          reversed={true} 
+        />
+
+        <FeatureSection
+          title="Furina - 𝗚𝗲𝗻𝘀𝗵𝗶𝗻 𝗜𝗺𝗽𝗮𝗰𝘁"
+          cn="Maiko You"
+          photographer="Lifes’Cos"
+          imageUrl="/Lifes'Cos-4811.jpg"
+        />
+
+        <FeatureSection
+          title="Furina - 𝗚𝗲𝗻𝘀𝗵𝗶𝗻 𝗜𝗺𝗽𝗮𝗰𝘁"
+          cn="Kanthida Poolthong"
+          photographer="Lifes’Cos"
+          imageUrl="/Lifes'Cos-5702.PNG"
+          reversed={true} 
         />
 
         <div className="mt-10 flex justify-center space-x-4">
@@ -69,9 +84,9 @@ export default function DiscoveryPage2() {
             ← Back Page
           </AnimatedButton>
 
-          <AnimatedButton href="/Discovery/3">
+          {/* <AnimatedButton href="/Discovery/3">
             Next Page →
-          </AnimatedButton>
+          </AnimatedButton> */}
 
         </div>
 
