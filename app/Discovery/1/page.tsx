@@ -2,6 +2,7 @@ import Navbar from "../../../components/Navbar";
 import Footer from "../../../components/Footer";
 import FeatureSection from "../../../components/FeatureSection";
 import AnimatedButton from "@/components/AnimatedButtonNextBack";
+import Image from "next/image";
 
 export default function Discovery() {
   return (
@@ -10,9 +11,11 @@ export default function Discovery() {
 
       <div className="relative w-full h-[500px] mt-30">
         {/* รูปภาพพื้นหลัง */}
-        <img
+        <Image
           src="/Lifes'Cos-5332.JPG"
           alt="Background"
+          width={1346}
+          height={500}
           className="absolute inset-0 w-full h-full object-cover opacity-40"
         />
 
@@ -29,9 +32,11 @@ export default function Discovery() {
 
       <div className="relative w-full h-[500px]">
         {/* รูปภาพพื้นหลัง */}
-        <img
+        <Image
           src="/Lifes'Cos-4595.JPG"
           alt="Background"
+          width={1346}
+          height={500}
           className="absolute inset-0 w-full h-full object-cover opacity-40"
         />
 
@@ -116,8 +121,6 @@ export default function Discovery() {
         </div>
 
       </main>
-
-
 
       <Footer />
     </>

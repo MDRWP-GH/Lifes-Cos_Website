@@ -1,13 +1,23 @@
 "use client";
 import { motion } from "framer-motion";
 import AnimatedButton from "./AnimatedButton";
+import Image from "next/image";
 
 const itemVariants = {
   hidden: { opacity: 0, y: 20 },
   visible: { opacity: 1, y: 0 },
 };
 
-export default function FeatureSection({ title, cn, photographer, imageUrl, reversed = false, link = "#" }) {
+export default function FeatureSection({
+  title,
+  cn,
+  photographer,
+  imageUrl,
+  reversed = false,
+  link = "#",
+  width = 560,
+  height = 380 // default แนวนอน
+}) {
   return (
     <motion.div
       className={`flex flex-col md:flex-row ${
@@ -18,11 +28,13 @@ export default function FeatureSection({ title, cn, photographer, imageUrl, reve
       viewport={{ once: true }}
       transition={{ staggerChildren: 0.3 }}
     >
-      <motion.div variants={itemVariants} className="w-full md:w-1/2">
-        <img
+      <motion.div variants={itemVariants} className="w-full md:w-auto">
+        <Image
           src={imageUrl}
           alt={title}
-          className="rounded-2xl shadow-2xl w-full h-auto object-cover"
+          width={width}
+          height={height}
+          className="rounded-2xl shadow-2xl object-contain"
         />
       </motion.div>
 

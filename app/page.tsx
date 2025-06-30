@@ -3,6 +3,7 @@ import ImageSlider from "../components/ImageSlider";
 import FeatureSection from "../components/FeatureSection";
 import Footer from "../components/Footer";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -12,9 +13,11 @@ export default function Home() {
 
       <div className="relative w-full h-[500px]">
         {/* รูปภาพพื้นหลัง */}
-        <img
+        <Image
           src="/Lifes'Cos-8953.JPG"
           alt="Background"
+          width={1346}
+          height={500}
           className="absolute inset-0 w-full h-full object-cover opacity-40"
         />
 
