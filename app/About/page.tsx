@@ -1,5 +1,4 @@
 import Navbar from "../../components/Navbar";
-import { motion } from "framer-motion";
 import Footer from "../../components/Footer";
 import Link from "next/link";
 
