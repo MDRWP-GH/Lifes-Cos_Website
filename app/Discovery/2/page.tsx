@@ -59,28 +59,32 @@ export default function DiscoveryPage2() {
           cn="Sora SerVamp"
           photographer="Lifes’Cos"
           imageUrl="/Lifes'Cos-5204.png"
+          link="https://facebook.com/share/p/16Ywbb2K1F/"
         />
 
         <FeatureSection
-          title="Sunday - 𝗛𝗼𝗻𝗸𝗮𝗶 𝗦𝘁𝗮𝗿 𝗥𝗮𝗶𝗹"
+          title="𝗦𝘂𝗻𝗱𝗮𝘆 - 𝗛𝗼𝗻𝗸𝗮𝗶 𝗦𝘁𝗮𝗿 𝗥𝗮𝗶𝗹"
           cn="Yuukie Chuu"
           photographer="Lifes’Cos"
           imageUrl="/IMG_9163.png"
+          link="https://facebook.com/share/p/1AjLukP31B/"
           reversed={true} 
         />
 
         <FeatureSection
-          title="Furina - 𝗚𝗲𝗻𝘀𝗵𝗶𝗻 𝗜𝗺𝗽𝗮𝗰𝘁"
+          title="𝗙𝘂𝗿𝗶𝗻𝗮 - 𝗚𝗲𝗻𝘀𝗵𝗶𝗻 𝗜𝗺𝗽𝗮𝗰𝘁"
           cn="Maiko You"
           photographer="Lifes’Cos"
           imageUrl="/Lifes'Cos-4811.jpg"
+          link="https://facebook.com/photo?fbid=122130323912488308&set=pb.61564649259527.-2207520000"
         />
 
         <FeatureSection
-          title="Furina - 𝗚𝗲𝗻𝘀𝗵𝗶𝗻 𝗜𝗺𝗽𝗮𝗰𝘁"
+          title="𝗙𝘂𝗿𝗶𝗻𝗮 - 𝗚𝗲𝗻𝘀𝗵𝗶𝗻 𝗜𝗺𝗽𝗮𝗰𝘁"
           cn="Kanthida Poolthong"
           photographer="Lifes’Cos"
           imageUrl="/Lifes'Cos-5702.PNG"
+          link="https://facebook.com/ANNZEMIZ/posts/pfbid02M5DoT5ZnHZCNjFv2Y1QkJnXrLD1b3Y3eVAD4jxsBcH7pW2aRc2QBoiGm1mFWGzoxl"
           reversed={true} 
         />
 

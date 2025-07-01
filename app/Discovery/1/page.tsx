@@ -64,7 +64,7 @@ export default function Discovery() {
         />
 
         <FeatureSection
-          title="Hatsune Miku"
+          title="𝗛𝗮𝘁𝘀𝘂𝗻𝗲 𝗠𝗶𝗸𝘂"
           cn="Mi Mo Ri"
           photographer="Lifes’Cos"
           imageUrl="/IMG_9992.png" // ใช้ path ของรูปใหม่
@@ -73,7 +73,7 @@ export default function Discovery() {
         />
 
         <FeatureSection
-          title="Frieren - Sousou no Frieren"
+          title="𝗙𝗿𝗶𝗲𝗿𝗲𝗻 - 𝗦𝗼𝘂𝘀𝗼𝘂 𝗻𝗼 𝗙𝗿𝗶𝗲𝗿𝗲𝗻"
           cn="Boom Bii"
           photographer="Lifes’Cos"
           imageUrl="/IMG_9855.jpg"
@@ -90,7 +90,7 @@ export default function Discovery() {
         />
 
         <FeatureSection
-          title="Miyabi - Zenless Zone Zero"
+          title="𝗠𝗶𝘆𝗮𝗯𝗶 - 𝗭𝗲𝗻𝗹𝗲𝘀𝘀 𝗭𝗼𝗻𝗲 𝗭𝗲𝗿𝗼"
           cn="Alis ʚìɞ"
           photographer="Lifes’Cos"
           imageUrl="/MEITU_20250411_192734214.jpg"
@@ -98,7 +98,7 @@ export default function Discovery() {
         />
 
         <FeatureSection
-          title="Jett - Valorant"
+          title="𝗝𝗲𝘁𝘁 - 𝗩𝗮𝗹𝗼𝗿𝗮𝗻𝘁"
           cn="เจ้าหนู ฟุคุรอนจังง"
           photographer="Lifes’Cos"
           imageUrl="/MEITU_20250406_015144812.jpg" // ใช้ path ของรูปใหม่
@@ -107,7 +107,7 @@ export default function Discovery() {
         />
 
         <FeatureSection
-          title="Barbara - Genshin Impact"
+          title="𝗕𝗮𝗿𝗯𝗮𝗿𝗮 - 𝗚𝗲𝗻𝘀𝗵𝗶𝗻 𝗜𝗺𝗽𝗮𝗰𝘁"
           cn="Khun Hun"
           photographer="Lifes’Cos"
           imageUrl="/LifesCos-4438.jpg"
