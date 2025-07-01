@@ -12,7 +12,7 @@ export default function DiscoveryPage2() {
       <div className="relative w-full h-[500px] mt-30">
         {/* รูปภาพพื้นหลัง */}
         <Image
-          src="/Lifes'Cos-5332.jpg"
+          src="/Lifes'Cos-5332.JPG"
           alt="Background"
           width={1346}
           height={500}
